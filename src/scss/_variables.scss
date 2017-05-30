@@ -1,0 +1,46 @@
+$white: #ffffff;
+$red: #960000;
+$blue: #3E6F97;
+$dark-blue: darken($blue, 10);
+$light-blue: lighten($blue, 10);
+$yellow: $red;
+$black: #000000;
+$bg-color: $blue;
+$text-color: $black;
+$paragraph-font-size: 1.2rem;
+$paragraph-font-family: 'Open Sans',
+sans-serif;
+$heading-color: $yellow;
+$nav-bg-color:$dark-blue;
+$menu-anchor-font-size:1.4rem;
+$heading-font-family: 'Bitter',
+serif;
+$heading-fontsize: ( h1: 40px, h2: 36px, h3: 32px, h4: 28px, h5: 24px, h6: 20px);
+$heading1-fontsize:24px;
+$heading2-fontsize:20px;
+$heading3-fontsize:16px;
+// visit
+$visit-border-color:$white;
+$visit-heading-color:lighten($yellow, 10);
+$visit-text-color:$white;
+// grid & responsive
+$breakpoints:( phone:479px, min-phone:480px, max-phone:767px, tablet: 768px, min-tablet: 768px, max-tablet: 959px, desktop: 1024px, desktop-lrg: 1200px);
+$columns: 12;
+$grid-max-width:1200px;
+// navigation
+$nav-bg-color: $dark-blue;
+// buttons
+$btn-font-size:16px;
+//table
+$table-font-size: 1.2rem;
+$table-caption-font-family: $heading-font-family;
+$table-caption-text-color: $yellow;
+$table-color: $white;
+$table-hover-bg-color: darken($yellow, 5);
+// border-radius
+$border-radius-amount:6px;
+// footer color
+$bg-footer: $dark-blue;
+$footer-color: $white;
+$site-info-bg-color: $yellow;
+$site-info-color: $dark-blue;
