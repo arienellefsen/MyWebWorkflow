@@ -1,8 +1,0 @@
-.btn {
-  @include button($yellow, darken($yellow, 20), $white);
-  @include clearfix;
-}
-.btn-service {
-  @include button($red, darken($yellow, 30), $white);
-  @include clearfix;
-}

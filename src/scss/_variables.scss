@@ -1,5 +1,5 @@
 $white: #ffffff;
-$red: #960000;
+$red: pink;
 $blue: #3E6F97;
 $dark-blue: darken($blue, 10);
 $light-blue: lighten($blue, 10);
@@ -44,3 +44,6 @@ $bg-footer: $dark-blue;
 $footer-color: $white;
 $site-info-bg-color: $yellow;
 $site-info-color: $dark-blue;
+h2.site-name {
+    color: $red;
+}
